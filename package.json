@@ -1,0 +1,19 @@
+{
+  "name": "binary-trees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "watchify ./src/index.js -o ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.1.2"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "watchify": "^3.7.0"
+  }
+}
